@@ -1,0 +1,40 @@
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel {
+    width: 50rem;
+    margin: auto;
+}
+
+.carousel-inner {
+    border-radius: 1rem;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #555;
+    color: #fff;
+}
+

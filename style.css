@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    background: linear-gradient(to bottom, #ffffff, #c2c2c2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 80%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #DDDDDD;
+}
+
+.logo {
+    width: 5.625rem;
+}
+
+main {
+    margin-top: 8rem;
+}
+
+h1 {
+    margin-left: 0.75rem;
+    margin-bottom: 0.625rem;
+    font-size: 3rem;
+    color: red;
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+
+h2 {
+    margin-left: 0.75rem;
+    margin-bottom: 0.625rem;
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 1.125rem;
+    margin-left: 0.75rem;
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.history{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    gap: 1.5rem;
+}
+
+.text-section {
+    padding: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1.display-4 {
+    color: red;
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+p.lead {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.logo-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.logo-image img {
+    width: 6rem;
+}

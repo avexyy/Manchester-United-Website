@@ -1,0 +1,52 @@
+#carouselExampleIndicators {
+    max-width: 50rem;
+    margin: auto;
+    box-shadow: 0.35rem 0.75rem 0.75rem rgba(0, 0, 0, 0.3);
+    border: 1px solid;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-indicators {
+    bottom: 1.25rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 1.875rem;
+    height: 1.875rem;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+    color: #fff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+#OldTraffordIn {
+    width: 151.5%
+}
+
+#OldTraffordEntrance {
+    width: 102.2%
+}
+
+#OldTraffordNight {
+    width: 102.2%
+}

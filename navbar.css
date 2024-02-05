@@ -1,0 +1,15 @@
+.navbar-background {
+    background-color: red;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.nav-link li a:hover {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
